@@ -1,6 +1,17 @@
 # BC-MISC-Tutorials
  Tutorials for new (and existing) members of SCCN
  
+ ```bash 
+ fmriprep --version 4
+ ```
+ 
+```python
+from matplotlib import pyplot as plt
+fig = plt.plot()
+```
+ 
+ 
+ 
 ## Repository Contents
 
 * _Folder_
