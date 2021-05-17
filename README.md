@@ -13,7 +13,7 @@ Contents
   * ANTS basics
 
 * Useful Command-line tools
-  * Downloading from AWS
+  * [Downloading from AWS](aws_s3_commands.md)
 
 
 To Do's 
