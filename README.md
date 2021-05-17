@@ -4,12 +4,21 @@
 Contents
 
 * Andromeda cluster
- * Submitting jobs
- * Interactive sessions
- * Jupyter notebook on the cluster
+  * Jupyter notebook on the cluster
+  * Submitting jobs
+  * Interactive sessions
+
+* Python basics
+  * Pandas basics
+  * ANTS basics
+
+* Useful Command-line tools
+  * Downloading from AWS
 
 
-To do's 
- - [] ANTS 
- - []fMRIprep
- - [] Contrastive VAEs 
+To Do's 
+
+- [x] ANTS
+- [x] fMRIprep
+- [x] Contrastive Learning
+- [ ] this is an incomplete item
