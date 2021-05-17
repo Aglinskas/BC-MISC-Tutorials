@@ -27,3 +27,4 @@ To Do's
 - [] fMRIprep
 - [] Contrastive Learning
 - [] Add more collaborators 
+- [X] Check to make sure Craig can edit
