@@ -1,11 +1,10 @@
 # BC-MISC-Tutorials
  Tutorials for new (and existing) members of SCCN
  
-##Repository Contents
+## Repository Contents
 
 * _Folder_
   * _File_
-
 
 * **Andromeda cluster**
   * Jupyter notebook on the cluster
@@ -25,4 +24,3 @@ To Do's
 - [] ANTS
 - [] fMRIprep
 - [] Contrastive Learning
-- [ ] this is an incomplete item
