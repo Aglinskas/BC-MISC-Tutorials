@@ -1,4 +1,7 @@
 ## pwd (print working directoru)
+```
+pwd
+```
 
 ## cd (Go to directory)
 
@@ -29,7 +32,7 @@ mv source_file target_file
 mv -r source_directory target_directory
 ```
 
-##rm (remove/delete)
+## rm (remove/delete)
 
 ```
 rm Filename
@@ -61,14 +64,5 @@ mkdir new_folder # try to create the folder, should give "Permission denied"
 sudo mkdir new_folder # Create the folder with root access 
 rm -r new_folder # Remove the folder
 ``
-
-# Intall Packages
-pip, conda
-
-# Remote Commands for communicating with cluster
-
-scp, 
-
-rsync, 
 
 
