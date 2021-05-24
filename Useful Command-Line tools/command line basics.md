@@ -13,7 +13,7 @@ pwd
 
 ```
 cd folder_name # Go to folder
-cd /Users/aidasaglinskas/Desktop # go to folder withing a folder 
+cd /Users/aidasaglinskas/Desktop # go to folder within a folder 
 cd ../ # Go back
 ```
 
@@ -51,7 +51,7 @@ rmdir direcoryname
 ## nano (make text files)
 
 ```
-nano filename.px
+nano filename.px (use control+x to save/exit)
 nano pyscript.py
 ```
 
