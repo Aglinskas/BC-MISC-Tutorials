@@ -1,12 +1,34 @@
 ## Logging into the cluster
-`ssh -p xxxxx aglinska@andromeda.bc.edu`
+`ssh -p xxxxx user@andromeda.bc.edu`
 
 ## Requesting a node
 `srun --job-name=MyInteractiveJob --nodes=1 --ntasks-per-node=1 --time=06:00:00 --mem=16gb --pty bash -I`
 
+## [SLURM commands](https://hpc.llnl.gov/banks-jobs/running-jobs/slurm-commands)
+sbatch, squeue, scancel
+
 ## Submitting a job
 
+SLURM skeleton script. [More info](https://help.rc.ufl.edu/doc/Sample_SLURM_Scripts)
+```bash
+#!/bin/bash
 
+#SBATCH --job-name=test_slurm_job
+#SBATCH --output=test_slurm_job_output
+
+#SBATCH --ntasks=1
+#SBATCH --time=10:00
+#SBATCH --mem-per-cpu=100
+
+#SBATCH --mail-user=aglinska@bc.edu
+#SBATCH --mail-type=ALL
+
+echo 'hello'
+mkdir mynewfolder
+python pyscript.py
+```
+
+sbatch jobname.slurm
 
 
 ## scp, rsync
