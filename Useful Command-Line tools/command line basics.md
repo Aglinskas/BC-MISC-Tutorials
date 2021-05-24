@@ -1,4 +1,7 @@
-Terminal is a powerful way to use your computer. We all know how to use the Graphical User Interface (GUI). Using terminal you can do all the same things and more!. Terminal is especially useful when working with remote resources (such as Boston College compute cluster) and automating tasks.
+Terminal is a powerful way to use your computer. We all know how to use the Graphical User Interface (GUI). Using terminal you can do all the same things and more!. Terminal is especially useful when: 
+
+1. Working with remote resources (such as Boston College compute cluster) and 
+2. Automating tasks.
 
 
 ## pwd (print working directory)
