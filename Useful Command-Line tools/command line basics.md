@@ -47,9 +47,11 @@ nano pyscript.py
 ```
 
 ## chmod (change file folder permissions)
+```
 python ./pyscript.py # make a script to say print('hello from python')
 chmod u=r,g=r,o=r pyscript.py
 chmod u=rwx,g=r,o=r pyscript.py
+```
 
 ## sudo (run with elevated privileges)
 
