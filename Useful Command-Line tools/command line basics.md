@@ -1,4 +1,7 @@
-## pwd (print working directoru)
+Terminal is a powerful way to use your computer. We all know how to use the Graphical User Interface (GUI). Using terminal you can do all the same things and more!. Terminal is especially useful when working with remote resources (such as Boston College compute cluster) and automating tasks.
+
+
+## pwd (print working directory)
 ```
 pwd
 ```
@@ -13,8 +16,8 @@ cd ../ # Go back
 
 ## ls (list folder contents)
 ```
-ls 
-ls -a
+ls # show files
+ls -a # show all files (including hidden ones)
 ```
 
 ## mkdir (make directory)
@@ -60,8 +63,11 @@ chmod u=rwx,g=r,o=r pyscript.py
 
 ``
 cd /Library # go to a protected folder
+
 mkdir new_folder # try to create the folder, should give "Permission denied"
+
 sudo mkdir new_folder # Create the folder with root access 
+
 rm -r new_folder # Remove the folder
 ``
 
