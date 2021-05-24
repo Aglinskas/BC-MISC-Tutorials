@@ -1,3 +1,5 @@
+Boston college has excellent computational resources.
+
 ## Logging into the cluster
 `ssh -p xxxxx user@andromeda.bc.edu`
 
@@ -5,11 +7,16 @@
 `srun --job-name=MyInteractiveJob --nodes=1 --ntasks-per-node=1 --time=06:00:00 --mem=16gb --pty bash -I`
 
 ## [SLURM commands](https://hpc.llnl.gov/banks-jobs/running-jobs/slurm-commands)
-sbatch, squeue, scancel
+```
+squeue # shows jobs running and their IDs
+sbatch slurm_job.slurm # submits a slurm job
+scancel 110665 #Cancels job specified by ID 110665
+```
 
 ## Submitting a job
 
-SLURM skeleton script. [More info](https://help.rc.ufl.edu/doc/Sample_SLURM_Scripts)
+here's SLURM skeleton script. [More info](https://help.rc.ufl.edu/doc/Sample_SLURM_Scripts)
+
 ```bash
 #!/bin/bash
 
@@ -33,14 +40,13 @@ sbatch jobname.slurm
 
 ## scp, rsync
 
-src=path_to_local_folder
-dest=user@andromeda.bc.edu:path_to_remote_folder
+src= /Users/aidasaglinskas/Desktop/
+dest=aglinska@andromeda.bc.edu:/data/aglinska/slurm_tutorial
 
 rsync -avz --info=progress2 -e "ssh -p 22022" $src $dest
 
 scp -P xxxxx -r $path2 $path1
 scp -P xxxxx -r $path2 $path1
-
 
 
 ## Launching jupyter notebook on a cluster
