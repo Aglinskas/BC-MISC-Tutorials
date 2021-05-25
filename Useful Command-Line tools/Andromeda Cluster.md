@@ -1,7 +1,7 @@
 Boston college has excellent computational resources.
 
 ## Logging into the cluster
-`ssh -p xxxxx user@andromeda.bc.edu`
+`ssh -p 22022 aglinska@andromeda.bc.edu`
 
 ## Requesting a node
 `srun --job-name=MyInteractiveJob --nodes=1 --ntasks-per-node=1 --time=06:00:00 --mem=16gb --pty bash -I`
@@ -40,19 +40,17 @@ sbatch jobname.slurm
 
 ## scp, rsync
 
-src= /Users/aidasaglinskas/Desktop/
-dest=aglinska@andromeda.bc.edu:/data/aglinska/slurm_tutorial
+dest=/Users/aidasaglinskas/Desktop/
+src=aglinska@andromeda.bc.edu:/data/aglinska/slurm_tutorial/
+
+scp -P 22022 -r $src $dest
 
 rsync -avz --info=progress2 -e "ssh -p 22022" $src $dest
-
-scp -P xxxxx -r $path2 $path1
-scp -P xxxxx -r $path2 $path1
-
 
 ## Launching jupyter notebook on a cluster
 
 ```
-ssh -p xxxxx user@andromeda.bc.edu
+ssh -p 22022 aglinska@andromeda.bc.edu
 srun --job-name=AidasCPUInteractiveJob --nodes=1 --ntasks-per-node=8 --time=24:00:00 --mem=64gb --pty bash -I
 jupyter lab --no-browser --port=5678 --ip=xxxx
 ```
