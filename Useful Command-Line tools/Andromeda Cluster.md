@@ -6,6 +6,10 @@ Boston college has excellent computational resources.
 
 Cluster consists of a head node and compute nodes
 
+Computing on a cluster has good advantages, two of which are 
+ 1. Computational power (CPU, GPU, RAM & Storage)
+ 2. Convenience (submitting jobs)
+
 ## Logging into the cluster
 `ssh -p 22022 aglinska@andromeda.bc.edu`
 
