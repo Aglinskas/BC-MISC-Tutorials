@@ -1,10 +1,14 @@
 Boston college has excellent computational resources.
 
+![0_LATf9qNbaoNCptpr](https://user-images.githubusercontent.com/15108226/119541878-37425880-bd8f-11eb-9984-79419a82d481.png)
+Cluster consists of a head node and compute nodes
+
 ## Logging into the cluster
 `ssh -p 22022 aglinska@andromeda.bc.edu`
 
 ## Requesting a node
 `srun --job-name=MyInteractiveJob --nodes=1 --ntasks-per-node=1 --time=06:00:00 --mem=16gb --pty bash -I`
+
 
 ## [SLURM commands](https://hpc.llnl.gov/banks-jobs/running-jobs/slurm-commands)
 ```
