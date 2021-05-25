@@ -1,6 +1,9 @@
 Boston college has excellent computational resources.
 
 ![0_LATf9qNbaoNCptpr](https://user-images.githubusercontent.com/15108226/119541878-37425880-bd8f-11eb-9984-79419a82d481.png)
+
+
+
 Cluster consists of a head node and compute nodes
 
 ## Logging into the cluster
@@ -43,14 +46,14 @@ sbatch jobname.slurm
 
 
 ## scp, rsync
-
+```
 dest=/Users/aidasaglinskas/Desktop/
 src=aglinska@andromeda.bc.edu:/data/aglinska/slurm_tutorial/
 
 scp -P 22022 -r $src $dest
 
 rsync -avz --info=progress2 -e "ssh -p 22022" $src $dest
-
+```
 ## Launching jupyter notebook on a cluster
 
 ```
@@ -59,4 +62,4 @@ srun --job-name=AidasCPUInteractiveJob --nodes=1 --ntasks-per-node=8 --time=24:0
 jupyter lab --no-browser --port=5678 --ip=xxxx
 ```
 in a separate window, set up port forwarding
-`ssh -p xxxxx -CNL 5678:xxxx:5678 user@andromeda.bc.edu`
+`ssh -p 22022 -CNL 5678:xxxx:5678 user@andromeda.bc.edu`
