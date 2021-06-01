@@ -2,29 +2,33 @@
 
 ## Terminal Commands
 
-Common terminal commands you’ll need
+You should be familiar with common terminal commands (if not check the command-line tutorial)
 
+Common terminal commands you’ll need:
 
-    pwd # "where am I" prints the current directory
-    cd directoryname # "go to" change current directory to directoryname
-    cd ../ # go back a directory
-    ls # "whats here" list the contents of the direcotry
-    mkdir directoryname # "make directory" make a folder named directoryname
+```bash
+pwd # "where am I" prints the current directory
+cd directoryname # "go to" change current directory to directoryname
+cd ../ # go back a directory
+ls # "whats here" list the contents of the direcotry
+mkdir directoryname # "make directory" make a folder named directoryname
+```
 
 [more terminal commands](https://www.dummies.com/computers/macs/mac-operating-systems/how-to-use-basic-unix-commands-to-work-in-terminal-on-your-mac/)
 
 
 ## SSH keys
 
-make a public/private pair of SSH keys to authenticate with bitbucket and avoid having to type you password every time.
+make a public/private pair of SSH keys to authenticate with github and avoid having to type you password every time.
 
 [tutorial link](https://help.github.com/en/enterprise/2.16/user/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 commands
-
-    ssh-keygen -t rsa -b 4096 -C "your_email@example.com" #generates a key pair
-    pbcopy < ~/.ssh/id_rsa.pub # copy the public key to clipboard
-    # paste it on bitbucket.org under account/settings/SSH keys/Add Key
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com" #generates a key pair
+pbcopy < ~/.ssh/id_rsa.pub # copy the public key to clipboard
+# paste it on bitbucket.org under account/settings/SSH keys/Add Key
+```
 
 
 ## Git Commands (main ones)
@@ -33,29 +37,33 @@ To create a repo, go to bitbucket.org and then Repositories/Create Repository an
 
 Clone a repository to 
 
-    cd ~/Desktop
-    git clone git@bitbucket.org:Aglinskas/learnrepo.git
+```
+cd ~/Desktop
+git clone git@bitbucket.org:Aglinskas/learnrepo.git
+```
 
 adding content
-
-    git add .
-    git commit -m “this is a template commit message”
-    git push 
+```
+git add .
+git commit -m “this is a template commit message”
+git push 
+```
 
 to update you repository with the latest changes use 
 
-
-    cd repository_name
-    git pull
+```
+cd repository_name # Make sure you're inside the repo folder
+git pull # pull changes (if any) from remote
+```
 
 to show history of changes made to the repository use: 
 
-
-    git log 
-    git log --oneline
+```
+git log 
+git log --oneline
+```
 
 this will show all the commits
-
 
 ## .gitignore
 
