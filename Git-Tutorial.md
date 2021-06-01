@@ -35,28 +35,28 @@ pbcopy < ~/.ssh/id_rsa.pub # copy the public key to clipboard
 
 To create a repo, go to bitbucket.org and then Repositories/Create Repository and give it a name
 
-Clone a repository to 
+### Creating repository: clone
 
 ```
 cd ~/Desktop
 git clone git@bitbucket.org:Aglinskas/learnrepo.git
 ```
 
-adding content
+### adding content: commit, push 
 ```
 git add .
 git commit -m “this is a template commit message”
 git push 
 ```
 
-to update you repository with the latest changes use 
+### to update you repository with the latest changes use: pull
 
 ```
 cd repository_name # Make sure you're inside the repo folder
 git pull # pull changes (if any) from remote
 ```
 
-to show history of changes made to the repository use: 
+### to show history of changes made to the repository use: 
 
 ```
 git log 
@@ -65,7 +65,7 @@ git log --oneline
 
 this will show all the commits
 
-## .gitignore
+### .gitignore
 
 make a .gitignore file to tell git which files to **not** sync (large files)
 
