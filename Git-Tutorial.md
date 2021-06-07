@@ -16,6 +16,10 @@ mkdir directoryname # "make directory" make a folder named directoryname
 
 [more terminal commands](https://www.dummies.com/computers/macs/mac-operating-systems/how-to-use-basic-unix-commands-to-work-in-terminal-on-your-mac/)
 
+## Installing git 
+To check if git is installed, in terminal - type `git` and press enter. If it says `command not found` that means you need to install it.  [Here's the installation guide for different OS's](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+If it says `These are common Git commands used in various situations` that means you have it installed and can proceed. 
 
 ## SSH keys
 
@@ -156,8 +160,6 @@ to clone a repo with submodules:
 [Pull requests are easy, here’s a video explanation of it](https://youtu.be/qjUkCwmdaDo)
 
 https://www.youtube.com/watch?v=qjUkCwmdaDo&
-
-
 
 - Clone a repository
 - Make changes
