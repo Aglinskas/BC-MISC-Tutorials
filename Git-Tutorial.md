@@ -1,4 +1,9 @@
-# Git Check-List
+# Git Tutorial
+
+Git is a protocol (program) for version control of code based projects. It's like google docs for folders. It automatically keep track of changes to files and folders (so no more _python_script_final_v2_changes_final_final.py_ files! you just have _python_script.py_ with differemt versions kept behing the scenes). It allows you to see changes, revert to previous versions of the project and collaborate with others on code projects.
+
+![git-branches-merge](https://user-images.githubusercontent.com/15108226/121881270-56d5fc80-cd0f-11eb-84f9-3947831f101b.png)
+
 
 ## Terminal Commands
 
@@ -17,7 +22,11 @@ mkdir directoryname # "make directory" make a folder named directoryname
 [more terminal commands](https://www.dummies.com/computers/macs/mac-operating-systems/how-to-use-basic-unix-commands-to-work-in-terminal-on-your-mac/)
 
 ## Installing git 
+[Install on windows](https://www.youtube.com/watch?v=2j7fD92g-gE)
+[Install on macos or linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
 To check if git is installed, in terminal - type `git` and press enter. If it says `command not found` that means you need to install it.  [Here's the installation guide for different OS's](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
 
 If it says `These are common Git commands used in various situations` that means you have it installed and can proceed. 
 
@@ -33,7 +42,6 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com" #generates a key pair
 pbcopy < ~/.ssh/id_rsa.pub # copy the public key to clipboard
 # paste it on bitbucket.org under account/settings/SSH keys/Add Key
 ```
-
 
 ## Git Commands (main ones)
 
