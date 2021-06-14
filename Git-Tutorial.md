@@ -175,7 +175,7 @@ CSAIL course
  
 
 ## Resources:
-- [Git tutorial, course](https://www.youtube.com/channel/UCshmCws1MijkZLMkPmOmzbQ/videos)
+- [Whole course on git protocol](https://www.youtube.com/channel/UCshmCws1MijkZLMkPmOmzbQ/videos)
 - [Chrome extension to speed-up youtube videos](https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik?hl=en-US)
 
 ## Make your life easier with GUI apps
