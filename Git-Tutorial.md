@@ -182,4 +182,13 @@ CSAIL course
 - [Git tutorial, course](https://www.youtube.com/channel/UCshmCws1MijkZLMkPmOmzbQ/videos)
 - [Chrome extension to speed-up youtube videos](https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik?hl=en-US)
 
+## Make your life easier with GUI apps
+This tutorial covers using git from the terminal. Some of you might find using the terminal scary, or typing out commands every time tedious. There are apps like [Sourcetree](https://www.sourcetreeapp.com/) and [GitHub desktop](https://desktop.github.com/) that do the same thing using a graphical user interface. They should be super easy to use (especially once know the core concepts of commit, push and branch), but if not - here an extra tutorial on how to use [SourceTree](https://youtu.be/FIabco-p_nY) and [GitHub Desktop](https://youtu.be/RPagOAUx2SQ) 
+
+
+
+
+
+
+
 
