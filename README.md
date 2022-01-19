@@ -1,6 +1,9 @@
 # BC-MISC-Tutorials
  Tutorials for new (and existing) members of SCCN
  
+ [go](http://stackoverflow.com){:target="_blank"}
+ 
+ 
 [Some video walkthroughs on YouTube](https://www.youtube.com/channel/UCnIGvfRfBATVGQ_P3AVuwrQ/videos)
  
 ```python
