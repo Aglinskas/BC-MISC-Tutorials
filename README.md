@@ -1,9 +1,7 @@
 # BC-MISC-Tutorials
  Tutorials for new (and existing) members of SCCN
  
- ```bash 
- fmriprep --version 4
- ```
+[Some video walkthroughs on YouTube](https://www.youtube.com/channel/UCnIGvfRfBATVGQ_P3AVuwrQ/videos)
  
 ```python
 from matplotlib import pyplot as plt
