@@ -26,6 +26,10 @@ fig = plt.plot()
   * Pandas basics
   * ANTS basics
 
+* **Git**
+ * [Git-Tutorial.md](/Git/aws_s3_commands.md)
+
+
 * **Useful Command-line tools**
   * [Downloading from AWS](aws_s3_commands.md)
 
