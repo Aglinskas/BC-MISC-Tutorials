@@ -18,7 +18,8 @@ fig = plt.plot()
   * _File_
 
 * **Andromeda cluster**
-  * Jupyter notebook on the cluster
+  * [Installing anaconda](/Andromeda%20Cluster/enviroments.md)
+  * [Jupyter notebook on the cluster](/Andromeda%20Cluster/remote-jupyter.md)
   * Submitting jobs
   * Interactive sessions
 
@@ -27,7 +28,7 @@ fig = plt.plot()
   * ANTS basics
 
 * **Git**
- * [Git-Tutorial.md](/Git/aws_s3_commands.md)
+  * [Git-Tutorial.md](/Git/Git-Tutorial.md)
 
 
 * **Useful Command-line tools**
