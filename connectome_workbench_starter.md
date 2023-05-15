@@ -3,6 +3,7 @@
 ![image](https://github.com/Aglinskas/BC-MISC-Tutorials/assets/15108226/5b1941ec-5899-410f-9c68-7ffce2e3ea80)
 
 
+## Installing viewer
 1. Download the app [https://www.humanconnectome.org/software/get-connectome-workbench](https://www.humanconnectome.org/software/get-connectome-workbench)
 2. Download tutorial data https://balsa.wustl.edu/study/kN3m Atlases and stuff
 
@@ -11,19 +12,24 @@ Select the .spec file form tutorial dataset
 Bottom menu is overlays
 Top menu is atlases 
 
-! To overlay on surface, you need .dscalar.nii files (not .nii files)
+## Importing files
 
-To convert t-maps from .nii to .dscalar.nii
+**Note! To overlay on surface, you need .dscalar.nii files (not .nii files)**
+
+To convert t-maps from .nii to .dscalar.nii:
 
 1. Install ciftify https://pypi.org/project/ciftify/
 2. Make sure wb_command is in path (comes with workbench, should be in the same folder as wb_view)
-2.1 Can use some thing like  ‘’’export PATH=~/Documents/workbench/bin_macosx64:$PATH’’’
+2.1 Can use some thing like `export PATH=~/Documents/workbench/bin_macosx64:$PATH`
 
 3. Run command to convert .nii to .dscalar.nii
-Code ‘’’ciftify_vol_result HCP_S1200_GroupAvg --resample-nifti <input>.nii <output>.dscalar.nii‘’’
-Example ‘’’ciftify_vol_result HCP_S1200_GroupAvg --resample-nifti PS.nii PS.dscalar.nii‘’’
+Code `ciftify_vol_result HCP_S1200_GroupAvg --resample-nifti <input>.nii <output>.dscalar.nii`
+Example `ciftify_vol_result HCP_S1200_GroupAvg --resample-nifti PS.nii PS.dscalar.nii`
 
-Note! If Converting from .nii to .dscalar.nii interpolates values. If you want to convert a ROI image, use 
-‘’’ciftify_vol_result --integer-labels HCP_S1200_GroupAvg --resample-nifti ROIS.nii ROIS.dscalar.nii’’’
+**Note! If Converting from .nii to .dscalar.nii interpolates values.**
+
+If you want to convert a ROI image, use:
+
+`ciftify_vol_result --integer-labels HCP_S1200_GroupAvg --resample-nifti ROIS.nii ROIS.dscalar.nii`
 
 Once you have .dscalar.nii images, you can import them to wb_viewer with File>Open File (or CMD+O)
