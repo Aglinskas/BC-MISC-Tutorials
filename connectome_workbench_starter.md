@@ -33,3 +33,19 @@ If you want to convert a ROI image, use:
 `ciftify_vol_result --integer-labels HCP_S1200_GroupAvg --resample-nifti ROIS.nii ROIS.dscalar.nii`
 
 Once you have .dscalar.nii images, you can import them to wb_viewer with File>Open File (or CMD+O)
+
+
+## ROIs as outlines 
+
+To make a ROI an outline
+
+Click on settings next to the overlay
+![1](https://github.com/Aglinskas/BC-MISC-Tutorials/assets/15108226/726d4819-4c68-4d49-bfad-69349ef951cc)
+
+Select Source -> Outline only (select color = black, and you might need to also check "Show data inside tresholds")
+![2](https://github.com/Aglinskas/BC-MISC-Tutorials/assets/15108226/ea6d4a63-265e-46f8-8d30-8f0cb67cdd8b)
+![3](https://github.com/Aglinskas/BC-MISC-Tutorials/assets/15108226/110dafd5-20ca-4ea7-afd4-98f6387cc99a)
+
+You should have an outline map!
+![4](https://github.com/Aglinskas/BC-MISC-Tutorials/assets/15108226/bd4ffa0d-1f08-40e7-8d69-0db1849cef2f)
+
