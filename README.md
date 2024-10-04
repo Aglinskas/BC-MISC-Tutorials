@@ -38,12 +38,10 @@ fig = plt.plot()
   * [plotting basics](/Python%20Basics/python_plotting.ipynb)
 
 
-` test code `
-
 To Do's 
-
-- [x] ANTS
+- [] SLURM arrays
 - [] fMRIprep
 - [] Contrastive Learning
-- [] Add more collaborators 
-- [X] Check to make sure Craig can edit
+- [] Add more collaborators
+- [] ANTS simulating data
+- [] Papermill tutorial
